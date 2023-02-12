@@ -1,0 +1,69 @@
+.todo {
+  .header {
+    font-weight: bold;
+    font-family: poppins;
+  }
+
+  .header-button {
+    .btn {
+      background-color: #656fed;
+      color: #fff;
+    }
+
+    select {
+      background-color: #ece8e8;
+      height: 100%;
+      border: 1px solid #e9e9ed;
+      padding-left: 15px;
+      border-radius: 5px;
+    }
+  }
+
+  .todo-list {
+    ul {
+      li {
+        .todo-info {
+          .check-icon {
+            font-size: 18px;
+            color: #656fed;
+          }
+        }
+
+        .todo-icon {
+          a {
+            color: #333;
+            font-size: 18px;
+          }
+        }
+
+        button {
+          background-color: transparent;
+          border: none;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .todo-box {
+    padding: 10px;
+    h4 {
+      font-family: poppins;
+      font-size: 18px;
+    }
+
+    form {
+      .cancel {
+        background-color: #cccbcb !important;
+        color: #333;
+        border: 1px solid #ecedf5;
+
+        &:hover {
+          background-color: #d6d4d4 !important;
+          color: #333;
+          border: 1px solid #ecedf5;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "title": "Go to school",
+      "status": "complete",
+      "id": 2
+    },
+    {
+      "title": "Drinking tea",
+      "status": "incomplete",
+      "id": 3
+    }
+  ]
+}

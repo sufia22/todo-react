@@ -1,0 +1,38 @@
+.modal-blur {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  .modal-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .modal-main {
+      width: 500px;
+      background-color: #fff;
+
+      .modal-header {
+        display: block;
+        button {
+          background-color: #fff;
+          float: right;
+          margin-top: -36px;
+          font-size: 18px;
+          border: none;
+
+          &:hover {
+            background-color: red;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

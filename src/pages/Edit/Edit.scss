@@ -1,0 +1,115 @@
+.box {
+  position: absolute;
+  .todo {
+    .header {
+      font-weight: bold;
+      font-family: poppins;
+    }
+
+    .header-button {
+      .btn {
+        background-color: #656fed;
+        color: #fff;
+      }
+
+      select {
+        height: 100%;
+        border: 1px solid #e9e9ed;
+        padding-left: 15px;
+        border-radius: 5px;
+      }
+    }
+
+    .todo-list {
+      ul {
+        li {
+          .todo-info {
+            .check-icon {
+              font-size: 18px;
+              color: #656fed;
+            }
+          }
+
+          .todo-icon {
+            a {
+              color: #333;
+              font-size: 18px;
+            }
+          }
+
+          button {
+            background-color: transparent;
+            border: none;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .todo-box {
+      padding: 10px;
+      h4 {
+        font-family: poppins;
+        font-size: 16px;
+      }
+
+      form {
+        .cancel {
+          background-color: #cccbcb !important;
+          color: #333;
+          border: 1px solid #ecedf5;
+
+          &:hover {
+            background-color: #d6d4d4 !important;
+            color: #333;
+            border: 1px solid #ecedf5;
+          }
+        }
+      }
+    }
+  }
+
+  .modal-blur {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .modal-wraper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      .modal-main {
+        width: 400px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        .modal-header {
+          display: block;
+          a {
+            background-color: #fff;
+            float: right;
+            margin-top: -36px;
+            font-size: 18px;
+            border: none;
+
+            &:hover {
+              background-color: coral;
+              color: #fff;
+            }
+          }
+        }
+
+        .modal-body {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
